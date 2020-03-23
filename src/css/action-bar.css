@@ -13,3 +13,7 @@
   color: var(--color_secondary_text);
   bottom: 0;
 }
+
+.task-counter {
+  cursor: default;
+}

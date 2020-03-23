@@ -1,7 +1,6 @@
 @import "./reset.css";
 
 @import "./_vars.css";
-@import "./_mixins.css";
 
 @import "./action-bar.css";
 @import "./main-controls.css";

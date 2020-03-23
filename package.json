@@ -1,32 +1,39 @@
 {
-  "name": "frontend_technopolis",
-  "version": "1.0.0",
+  "name": "frontend_technopolis_todo_app",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/index.js",
   "dependencies": {
-    "autoprefixer": "^9.7.0",
-    "cssnano": "^4.1.10",
-    "postcss": "^7.0.21",
-    "postcss-import": "^12.0.1",
-    "postcss-nesting": "^7.0.1",
-    "postcss-sassy-mixins": "^2.1.0",
-    "reset.css": "^2.0.2",
-    "stylelint": "^11.1.1"
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "object-observer": "^2.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reset.css": "^2.0.2"
   },
   "devDependencies": {
-    "postcss-use": "^3.0.0"
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "typescript": "^3.8.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ok-technopolis-autumn-2019/Dmitry_Nazarov.git"
+    "url": "git+https://github.com/renuo-nego/todo_app.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ok-technopolis-autumn-2019/Dmitry_Nazarov/issues"
-  },
-  "homepage": "https://github.com/ok-technopolis-autumn-2019/Dmitry_Nazarov#readme"
+  "author": "renuo-nego",
+  "license": "ISC"
 }

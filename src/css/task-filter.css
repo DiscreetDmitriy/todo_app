@@ -7,6 +7,7 @@
   padding: 2px 6px;
   border-radius: 2px;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .task-filter__input:checked + .task-filter__text {

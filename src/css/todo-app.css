@@ -1,0 +1,32 @@
+.todo-app {
+  position: relative;
+  max-width: 560px;
+  min-width: 460px;
+  margin: 0 auto 20px;
+}
+.todo-app::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 2px;
+  right: 2px;
+  height: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.todo-app::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 4px;
+  right: 4px;
+  height: 10px;
+  z-index: -2;
+  background-color: var(--color_bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.todo-app__frame {
+  background-color: var(--color_bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

@@ -7,6 +7,7 @@
 
 .main-controls__select-all-button {
   background-image: url("../img/select.svg");
+  cursor: pointer;
   background-position: 15px 26px;
   background-repeat: no-repeat;
   text-indent: -9999px;
